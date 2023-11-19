@@ -1,0 +1,26 @@
+/* Header.css */
+/* Add any global styles for the entire header here */
+
+/* Styling for the AppBar */
+.AppBar-root {
+    background-color: #2196f3;
+    /* Customize the background color */
+}
+
+/* Styling for the Toolbar */
+.Toolbar-root {
+    justify-content: space-between;
+    /* Adjust the space between items in the Toolbar */
+}
+
+/* Styling for the Typography component (title) */
+.MuiTypography-root {
+    flex-grow: 1;
+    /* Allow the title to take up remaining space */
+}
+
+/* Styling for the Button component (login button) */
+.MuiButton-root {
+    color: #ffffff;
+    /* Set the text color to white */
+}

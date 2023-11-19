@@ -1,0 +1,31 @@
+// AtomicButton.scss
+.atomic-button {
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  
+    &.contained {
+      background-color: #2196f3; // Set your desired background color
+      color: #fff; // Set your desired text color
+  
+      &:hover {
+        background-color: #1565c0; // Set your desired hover background color
+      }
+    }
+  
+    &.outlined {
+      border: 1px solid #2196f3; // Set your desired border color
+      color: #2196f3; // Set your desired text color
+  
+      &:hover {
+        background-color: #e3f2fd; // Set your desired hover background color
+      }
+    }
+  
+    // Add more styles as needed
+  }
+  

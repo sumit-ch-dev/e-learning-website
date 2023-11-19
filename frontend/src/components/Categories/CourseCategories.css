@@ -1,0 +1,28 @@
+/* CourseCategories.css */
+
+.category-card-container {
+    padding: 20px;
+  }
+  
+  .category-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Add any additional styles as needed */
+  

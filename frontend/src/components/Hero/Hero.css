@@ -1,0 +1,46 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    /* Set the desired height of your hero section */
+}
+
+.hero-content {
+    display: flex;
+    width: 80%;
+    /* Adjust the width of the hero content */
+}
+
+.image-container {
+    width: 50%;
+    /* Adjust the width of the image container */
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover img {
+    transform: translateX(10px);
+    /* Adjust the amount of movement */
+}
+
+.text-container {
+    width: 50%;
+    /* Adjust the width of the text container */
+    padding: 0 20px;
+    /* Add padding for spacing */
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+}

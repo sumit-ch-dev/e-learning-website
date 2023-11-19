@@ -1,0 +1,67 @@
+.lesson-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .form-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+
+    .form-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+
+      .form-field {
+        margin-bottom: 20px;
+
+        input {
+          width: 100%;
+          padding: 8px;
+          font-size: 1rem;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          outline: none;
+        }
+
+        span {
+          color: red;
+          font-size: 0.8rem;
+          margin-top: 5px;
+        }
+
+        .MuiFormControl-fullWidth {
+          width: 100%;
+        }
+
+        .MuiInputLabel-root {
+          font-size: 1rem;
+        }
+
+        .MuiSelect-root {
+          width: 100%;
+        }
+      }
+
+      .form-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        button {
+          width: 48%;
+        }
+      }
+    }
+  }
+}
